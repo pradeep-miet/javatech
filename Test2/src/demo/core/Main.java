@@ -8,7 +8,7 @@ import demo.util.MarshallingUtil;
 public class Main {
 
 	public static void main(String[] args) {
-		System.out.println("This is the main class");
+		System.out.println("This is the main class..linked with GIT");
 		Product product = new Product("101","Laptop",45000,5,new Date());
 		System.out.println("******Called Marshalling************");
 		boolean isMarshalled = MarshallingUtil.Marshalling(product);
